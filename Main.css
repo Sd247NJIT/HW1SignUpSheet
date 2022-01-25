@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #EAF2F9; /*light blue*/
+}
+
+body {
+    font-family: "Calibri Light", sans-serif;
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+header {
+    font-family: "Calibri Light", "Courier New", sans-serif;
+    background-color: #F1DDDE;  /* blush pink */
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #6181BA;
+    font-size: 20px;
+}
+
+/* me */
+
+.card-deck{
+    display: inline-block;
+    width: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card{
+    display: inline-block;
+    font-size: 23px;
+    text-align: left;
+    color:#6181BA;
+    text-decoration: none;
+    list-style-type: none;
+    border-color: #ffffff;
+}
+
+/* form */
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #6181BA;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #AF779B;
+    color: white;
+    padding: 10px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6181BA;
+}
+
+/* Footer */
+footer {
+    background-color: #6181BA;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #F1DDDE;
+    height: 50px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+footer p {
+    width: auto;
+    font-size: 15px;
+    text-align: left;
+}
